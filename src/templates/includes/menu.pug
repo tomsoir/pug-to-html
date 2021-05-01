@@ -1,0 +1,8 @@
+nav
+    ul
+        each val, key in pages
+            li
+                if selected === key
+                    span= val.menu.title
+                else
+                    a(href=''+key+'.html')= val.menu.title

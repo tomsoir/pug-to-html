@@ -1,0 +1,56 @@
+{
+    "en": {
+        "site": {
+            "lang": "en",
+            "langs": {
+                "en": "English",
+                "ru": "Russian"
+            },
+            "title": "Hello SASHA"
+        },
+        "pages": {
+            "index" : {
+                "menu": {"title": "Index"},
+                "header": "Hello Header of page-Index",
+                "content": "Hello Content of page-Index"
+            },
+            "page-1" : {
+                "menu": {"title": "Page 1"},
+                "header": "Hello Header 1",
+                "content": "Hello Content 1"
+            },
+            "page-2" : {
+                "menu": {"title": "Page 2"},
+                "header": "Hello Header of page-2",
+                "content": "Hello Content of page-2"
+            }
+        }
+    },
+    "ru": {
+        "site": {
+            "lang": "ru",
+            "langs": {
+                "en": "Инглиш",
+                "ru": "Русский"
+            },
+            "title": "Привет Саша"
+        },
+        "pages": {
+            "index" : {
+                "menu": {"title": "Главная Страница"},
+                "header": "Привет Заголовок Страницы-Index",
+                "content": "Привет Контент Страницы-Index"
+            },
+            "page-1" : {
+                "menu": {"title": "Страница 1"},
+                "header": "Привет Заголовок Страницы-1",
+                "content": "Привет Контент Страницы-1"
+            },
+            "page-2" : {
+                "menu": {"title": "Страница 2"},
+                "header": "Привет Заголовок Страницы-2",
+                "content": "Привет Контент Страницы-2"
+            }
+        }
+    }
+}

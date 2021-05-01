@@ -1,0 +1,18 @@
+{
+  "name": "templater",
+  "version": "1.0.0",
+  "description": "HTML generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp watch-files",
+    "build": "gulp pug-to-html && gulp less-to-css && gulp copy-images",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tomsoir@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1",
+    "gulp-pug": "^4.0.1"
+  }
+}

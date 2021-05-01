@@ -1,0 +1,8 @@
+lang
+    ul
+        each val, key in site.langs
+            li
+                if site.lang === key
+                    span= val
+                else
+                    a(href=`../${key}/${selected}.html`)= val

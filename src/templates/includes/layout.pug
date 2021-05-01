@@ -1,0 +1,15 @@
+
+//- Default page settings
+block page
+    -var selected = 'index';
+
+html(lang=lang)
+    include head.pug
+    body(class=`page-${selected} lang-${site.lang}`)
+        h1=site.title
+        include menu.pug
+        include lang.pug
+        block content
+            h2= pages[selected].header
+            p= pages[selected].content
+    include footer.pug

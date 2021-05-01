@@ -1,0 +1,9 @@
+extends includes/layout.pug
+
+block page
+    -var selected = 'index';
+
+block content
+    h2= pages[selected].header
+    p= pages[selected].content
+    img(src="../images/zvr.jpg")
