@@ -1,13 +1,10 @@
-Кароч! )
+## Installation
+Open this folder in terminal and suimply run this to setup the envirment: 
+- `$ npm i` - will install all packages for you
+- `$ npm run build` - will generate HTMLs from Pug sources
 
-Как установить?!
-1. В терминале заходишь в эту папку
-2. Запускаешь (там же в терминале после того как вошел в папку) следующее:
-- `$ npm i` — установит тебе все пакеты
-- `$ npm run build` — соберет тебе из иходников языковые HTMLки
+## Development
+Run this:
+- `$ npm start` - is to start the watch file 
 
-Как че разрабатывать?!
-1. Запускаешь:
-- `$ npm start` — это запусти файл вотчер. Всякий раз когда ты будешь чтото менять в pug, less или добавлять новую картинку оно тебе это все будет билдить автоматом куда надо
-
-Удачи Санек! Всегда рад помочь! :)
+_Happy coding!_
