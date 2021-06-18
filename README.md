@@ -1,3 +1,4 @@
+## About
 Simple static HTML generator from PUG templates
 
 ## Installation
