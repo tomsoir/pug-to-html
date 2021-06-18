@@ -1,5 +1,6 @@
 ## About
-Simple static HTML generator from PUG templates
+Very simple static (HTML/CSS) page generator from PUG and LESS templates.
+Also, supports images.
 
 ## Installation
 Open this folder in terminal and suimply run this to setup the envirment: 
