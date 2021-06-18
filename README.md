@@ -1,3 +1,5 @@
+Simple static HTML generator from PUG templates
+
 ## Installation
 Open this folder in terminal and suimply run this to setup the envirment: 
 - `$ npm i` - will install all packages for you
